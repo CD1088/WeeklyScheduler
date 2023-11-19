@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-align: center;
+}
+
+.event {
+  width: 99%;
+  height: 100%;
+  position: absolute;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+.eventDescription {
+  word-wrap: break-word;
+  margin: 20px;
+}
+
+/*weather colors*/
+.cloudy {
+  background-color: rgb(223, 222, 218);
+}
+.drizzle {
+  background-color: #b3b1bc;
+}
+.rain {
+  background-color: rgb(140, 160, 173);
+}
+.snow {
+  background-color: rgb(241, 241, 241);
+}
+.thunderstorm {
+  background-color: rgb(97, 98, 105);
+}

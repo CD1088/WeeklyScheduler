@@ -1,0 +1,54 @@
+.modalBG {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(142, 148, 153, 0.527);
+}
+.modal {
+  background-color: white;
+  border-radius: 20px;
+  width: 30vw;
+  height: 30vh;
+}
+
+.container {
+  margin: 15px;
+}
+
+.closeBtn {
+  float: right;
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.closeBtn:hover {
+  scale: 125%;
+}
+
+label {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 5px;
+}
+select {
+  margin: 5px;
+  padding: 5px;
+}
+
+input[type="color"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
